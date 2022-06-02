@@ -1,0 +1,51 @@
+@mixin btn-orange{
+    background-color: #ED5A14;
+    color: #fff;
+    &:visited, &:hover {
+        color: #fff;
+    }
+}
+
+.wp-block-button__link{
+    background-color: #ED5A14;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 0;
+    &:visited, &:hover {
+        color: #fff;
+    }
+}
+
+@mixin btn-light {
+    background-color: #F7F7F7;
+    color: #ED5A14;
+    &:visited, &:hover {
+        color: #ED5A14;
+    }
+}
+
+@mixin btn-darker {
+    background-color: #272C48;
+    color: #fff;
+    &:visited, &:hover {
+        color: #fff;
+    }
+}
+
+@mixin btn-transparent {
+    background-color: transparent;
+    color: #272C48;
+    border: 1px solid #272C48;
+    &:visited, &:hover {
+        color: #272C48;
+    }
+}
+
+@mixin btn-white-black {
+    background-color: #fff;
+    color: #272C48;
+    &:visited, &:hover {
+        color: #272C48;
+    }
+}
